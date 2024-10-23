@@ -1,0 +1,29 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste-React by Keerthi Ramagiri", 
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keerthiramagiri/namaste-React.git"
+  },
+  "keywords": [],
+  "author": "\"Keerthi Ramagiri\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keerthiramagiri/namaste-React/issues"
+  },
+  "homepage": "https://github.com/keerthiramagiri/namaste-React#readme",
+  "devDependencies": {
+        "parcel": "^2.12.0"
+  },
+  "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+  },
+  "browerslist": [
+    "last 2 versions"
+  ]
+}

@@ -1,1 +1,41 @@
 # Namaste-React
+
+NPM - standard repository for all the packages/Biggest package manager for all the stuff 
+npm init -command
+Package.json - it is a configuration for npm 
+npm install -D parcel - It is to install npm dev dependency. 
+caret and tilde in package.json
+See npm semver - Tilde Ranges
+~version - Approximately equivalent to version, i.e., only accept new patch versions
+See npm semver - Caret Ranges
+^version	Compatible with version, i.e., accept new minor and patch versions
+
+
+to ignite we use npx parcel index.html
+
+if we want to install any package we use npm commands, if we want to execute we use npx commands 
+
+# refer parcel.org 
+# parcel
+- Dev Build
+- Local server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - written in C++
+- Caching - Faster Builds 
+- Image Optimization
+- Minification
+- Building 
+- Compress
+- Consistent Hashing 
+- Code splitting
+- Differential Bundling - to support older browsers
+- Diagnostic
+- Error Handling
+- To host on HTTPs
+- Tree shaking - remove unused code
+- Different dev and prod bundles
+
+
+# while executing npx parcel build index.html will get error to avoid that we shouls remove main: "app.js" from package.json to avoid conflicts. bcoz package.json automatically generate the main. 
+
+# refer browserslist
