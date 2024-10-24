@@ -45,3 +45,13 @@ if we want to install any package we use npm commands, if we want to execute we 
 # JS engine willl understand ES6(ECMAScript)
 
 # Babel is JS compiler/transpiler take the jsx and it converts into the react code that js engine will understand 
+
+If we want to give attributes to JSX we use camel case 
+
+# React Component
+-Class Based Component - OLD, -Functional Component - NEW
+
+What is functional component?
+It is normal javascript function which writtern some peace react function or jsx code.
+
+# we can write any java script code inside jsx/ paranthesis {}.

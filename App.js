@@ -1,19 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-//React.createElement => ReactElement-JS Object =>HTMLElement(render)
+// React Element 
 
-const heading = React.createElement("h1", { id: "heading"}, "namaste React");
+const title = (
+<h1 className="head" tabIndex="5">
+    Namaste React Using JSX
+    </h1>
+);
 
-console.log(heading);
+// Functional component 
 
-//JSX - HTML- Like or XML- Like syntax - PARCEL- Babel
-
-//JSX => React.createElement =>ReactElement-JS Object =>HTMLElement(render)
-
-const jsxHeading = <h1 id="heading">Namaste React Using JSX</h1>;
-console.log(jsxHeading);
+const HeadingComponent = () => (
+    <div id="container"> 
+    <h1 className ="heading"> Namaste React Functional Component</h1>
+    </div> 
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(jsxHeading);
+root.render(<HeadingComponent />);
