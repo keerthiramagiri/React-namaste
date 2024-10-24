@@ -39,3 +39,9 @@ if we want to install any package we use npm commands, if we want to execute we 
 # while executing npx parcel build index.html will get error to avoid that we shouls remove main: "app.js" from package.json to avoid conflicts. bcoz package.json automatically generate the main. 
 
 # refer browserslist
+
+# JSX is not html. it looks like html syntax
+
+# JS engine willl understand ES6(ECMAScript)
+
+# Babel is JS compiler/transpiler take the jsx and it converts into the react code that js engine will understand 
