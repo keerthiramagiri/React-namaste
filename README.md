@@ -55,3 +55,9 @@ What is functional component?
 It is normal javascript function which writtern some peace react function or jsx code.
 
 # we can write any java script code inside jsx/ paranthesis {}.
+
+props: properties is something which we can pass to the components. 
+
+# config driven UI - is a design approach where the structure, behavior, and layout of the user interface are primarily controlled by configuration files rather than hard-coded into the application's codebase. 
+
+# not using keys (not acceptable) <<<index as key <<<< unique Id(best practice)

@@ -1,7 +1,7 @@
 {
   "name": "namaste-react",
   "version": "1.0.0",
-  "description": "This is Namaste-React by Keerthi Ramagiri", 
+  "description": "This is Namaste-React by Keerthi Ramagiri",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -19,11 +19,12 @@
   },
   "homepage": "https://github.com/keerthiramagiri/namaste-React#readme",
   "devDependencies": {
-        "parcel": "^2.12.0"
+    "parcel": "^2.12.0"
   },
   "dependencies": {
-        "react": "^18.3.1",
-        "react-dom": "^18.3.1"
+    "namaste-react": "file:",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "browerslist": [
     "last 2 versions"
