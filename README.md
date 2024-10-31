@@ -61,3 +61,35 @@ props: properties is something which we can pass to the components.
 # config driven UI - is a design approach where the structure, behavior, and layout of the user interface are primarily controlled by configuration files rather than hard-coded into the application's codebase. 
 
 # not using keys (not acceptable) <<<index as key <<<< unique Id(best practice)
+
+/**
+ * Header
+ * - Logo
+ * - Nav Items
+ * Body
+ * - Search 
+ * - RestaurantContainer
+ * - RestaurantCard
+ *   -img
+ *   - name of res, star rating, cuisine, delivery time
+ * Footer
+ * - CopyRight
+ * - Links
+ * - Address
+ * - Contact
+ */
+
+Two types of Export/Import
+
+- Default Export/Import
+Export default Components;
+import Component from "path";
+
+-named Export/Import
+
+export const Components;
+import {component} from "Path";
+
+there are two ways for exporting 
+1. default
+2. named : we used to write "export" infront of the doc if we need to export multiple things. 
