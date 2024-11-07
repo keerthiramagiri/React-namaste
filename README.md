@@ -93,3 +93,15 @@ import {component} from "Path";
 there are two ways for exporting 
 1. default
 2. named : we used to write "export" infront of the doc if we need to export multiple things. 
+
+# React Hooks
+(Normal JS utility functions)
+
+- UseState() - use to generate super powerful react variables
+- UseEffect()
+
+# whenever a state variable updates react re-renders the component 
+
+# Reconciliation Algorithm(ReactFiber) 
+Virtual DOM - is an object representation of actual DOM
+
