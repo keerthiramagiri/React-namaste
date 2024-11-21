@@ -110,3 +110,5 @@ Virtual DOM - is an object representation of actual DOM
  # useEffect() -> The useEffect hook in React is a powerful feature that allows you to perform side effects in function components. Side effects are actions that affect something outside of the component, such as fetching data, manually updating the DOM, setting up subscriptions, or clearing resources when the component is unmounted.
 
  # Optional chaining (?.) : Optional chaining is a feature in JavaScript that allows you to safely access deeply nested properties of an object without needing to check each level to see if it exists. It helps prevent errors by automatically returning undefined if any part of the chain is null or undefined, instead of throwing an error.
+
+ # state react variable: whenever a state variable update, react triggers a reconciliation cycle(re-renders the component)
