@@ -36,13 +36,13 @@ if we want to install any package we use npm commands, if we want to execute we 
 - Different dev and prod bundles
 
 
-# while executing npx parcel build index.html will get error to avoid that we shouls remove main: "app.js" from package.json to avoid conflicts. bcoz package.json automatically generate the main. 
+# while executing npx parcel build index.html will get error to avoid that we should remove in main: "app.js" from package.json to avoid conflicts. bcoz package.json automatically generate the main. 
 
 # refer browserslist
 
 # JSX is not html. it looks like html syntax
 
-# JS engine willl understand ES6(ECMAScript)
+# JS engine will understand ES6(ECMAScript)
 
 # Babel is JS compiler/transpiler take the jsx and it converts into the react code that js engine will understand 
 
@@ -52,7 +52,7 @@ If we want to give attributes to JSX we use camel case
 -Class Based Component - OLD, -Functional Component - NEW
 
 What is functional component?
-It is normal javascript function which writtern some peace react function or jsx code.
+It is normal javascript function which written some peace react function or jsx code.
 
 # we can write any java script code inside jsx/ paranthesis {}.
 
@@ -105,3 +105,8 @@ there are two ways for exporting
 # Reconciliation Algorithm(ReactFiber) 
 Virtual DOM - is an object representation of actual DOM
 
+ In React will follow the this steps(approach) -> Loads -> Render -> API -> Render
+
+ # useEffect() -> The useEffect hook in React is a powerful feature that allows you to perform side effects in function components. Side effects are actions that affect something outside of the component, such as fetching data, manually updating the DOM, setting up subscriptions, or clearing resources when the component is unmounted.
+
+ # Optional chaining (?.) : Optional chaining is a feature in JavaScript that allows you to safely access deeply nested properties of an object without needing to check each level to see if it exists. It helps prevent errors by automatically returning undefined if any part of the chain is null or undefined, instead of throwing an error.
